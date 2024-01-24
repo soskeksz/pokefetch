@@ -14,5 +14,3 @@ Tasks:
 - fetch some pokemons 
 - display fetched pokemons (so we see that the fetch was succesful)
 - if the location has no pokemons, an error message appears -> back button
-
-yeahhhh készvagyunk XDDDDDDDDDDDD
