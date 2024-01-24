@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to left, #98e798, #1a8a5f);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#loc {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: white;
+}
+
+.backButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#backButton {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  margin: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.myPokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Location {
+  display: inline-block;
+  margin: 20px;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Location button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Location button:hover {
+  background-color: #f0f0f0;
+}
+.FightButton {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.FightButton:hover {
+  background-color: #f0f0f0;
+}
