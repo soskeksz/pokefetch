@@ -1,4 +1,10 @@
-Gotta fetcg() 'Em All
+# Gotta fetch() 'Em All
+
+## Setting up the project:
+
+clone the repository
+
+run npm start in the pokefetch directory
 
 Tasks:
 
